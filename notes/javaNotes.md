@@ -1,4 +1,4 @@
-*Notes taken from the W3 Schools Java course.*
+*Notes taken from the W3 Schools Java course and Java for Dummies, 5th Edition.*
 
 # Helpful Links
 

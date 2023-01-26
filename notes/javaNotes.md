@@ -28,7 +28,7 @@ hello world program `helloWorld.java` included in this repo, the class is
 
 ### Datatypes
 
-* `String` - the only default non-primitive data type (starts with a capital letter) stores text
+* `String` - the only default non-primitive data type (starts with a capital letter), stores text
 * `int` - stores whole numbers, positive or negative
 * `float` - stores floating point numbers; end value with "f"  
 * `char` - stores single characters

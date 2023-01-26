@@ -34,8 +34,8 @@ hello world program `helloWorld.java` included in this repo, the class is
 * `char` - stores single characters
 * `boolean`- t/f
 * `byte` - stores whole nubmers from -128 to 127 
-* 'short' - can store whole numbers from -32,768 to 32,767
-* long - can store whole numbers from -9223372036854775808 to 9223372036854775807.
+* `short` - can store whole numbers from -32,768 to 32,767
+* `long` - can store whole numbers from -9223372036854775808 to 9223372036854775807.
     * Always end the value with a capital "L" like so: 
         * `long myNum = 999999999L;`
 * double - can store floating point values; end value with "d"

@@ -81,4 +81,4 @@ be turned into a webpage via the `javadoc` program
     * `random()` - return a ***pseudo-random number*** between 0.0 and 1.0 by default
     * *For more information on `Math.random();` and its randomness, see [here](https://stackoverflow.com/questions/9963778/how-random-is-math-random-in-java-across-different-jvms-or-different-machines)*.
         * multiply by desired range + 1 to get a certain range like so
-            * `int randNum = (int)(1 + (Math.random() * 101)); //1 to 100
+            * `int randNum = (int)(1 + (Math.random() * 101)); //1 to 100`

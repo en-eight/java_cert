@@ -3,6 +3,7 @@
 # Helpful Links
 
 [ASCII Table Reference](https://www.w3schools.com/charsets/ref_html_ascii.asp)
+[Java Math Lib Reference](https://www.w3schools.com/java/java_ref_math.asp)
 
 # Notes
 
@@ -25,6 +26,13 @@ hello world program `helloWorld.java` included in this repo, the class is
 * The `println` method can print strings, numbers, operations
 * This method prints on a new line with each call
     * If you do not want this behavior, use `print` instead
+
+### Types of comments
+
+* Tradtional comments - `/* this is a traditional comment */`
+* End of line comments - `int statement; // this is EOL comment`
+* Javadoc comments - `/**` - special kind of traditional comment; meant to
+be turned into a webpage via the `javadoc` program
 
 ### Datatypes
 
@@ -50,3 +58,26 @@ hello world program `helloWorld.java` included in this repo, the class is
     * Widening Casting (automatic) - convert a smaller type to a larger type size
         `byte -> short -> char -> int -> long -> float -> double`
     * Narrowing Casting (manual) - convert a larger type to a smaller type size
+
+### String concatenation
+
+* You can either use the `+` operator or the `concat` function to concatenate strings.
+    * `System.out.println(var1 + " " + var2);`, OR 
+    * `System.out.println(var1.concat(var2));`
+
+### Slash codes - a LOT like C++
+* `\n` -> newline
+* `\r` -> carriage return
+* `\t`  -> tab
+* `\b` -> backspace
+* `\f` -> form feed
+
+### Java Math library
+* Assume each item starts with `Math.`; methods include:
+    * `max(x,y)` - find higher value of two values
+    * `min(x,y)` - find lower value of two values
+    * `sqrt(x)` - find sqrt of x
+    * `abs(x)` - find absolute value of x
+    * `random()` - return a ***pseudo-random number*** between 0.0 and 1.0 by default
+        * multiply by desired range + 1 to get a certain range like so
+            * `int randNum = (int)(1 + (Math.random() * 101)); //1 to 100

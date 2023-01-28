@@ -2,8 +2,8 @@
 
 # Helpful Links
 
-[ASCII Table Reference](https://www.w3schools.com/charsets/ref_html_ascii.asp)
-[Java Math Lib Reference](https://www.w3schools.com/java/java_ref_math.asp)
+* [ASCII Table Reference](https://www.w3schools.com/charsets/ref_html_ascii.asp)
+* [Java Math Lib Reference](https://www.w3schools.com/java/java_ref_math.asp)
 
 # Notes
 

@@ -46,7 +46,8 @@ be turned into a webpage via the `javadoc` program
 * `long` - can store whole numbers from -9223372036854775808 to 9223372036854775807.
     * Always end the value with a capital "L" like so: 
         * `long myNum = 999999999L;`
-* double - can store floating point values; end value with "d"
+* `double` - can store floating point values from 1.7e−308 to 1.7e+308; end value with "d"
+    * `double x = 1337.64d;`
 
 ### Keywords
 

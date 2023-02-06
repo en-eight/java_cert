@@ -1,0 +1,134 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+legend,
+ul,
+li {
+  font-family: Arial, sans-serif;
+}
+
+p,
+li {
+  font-size: 15pt;
+}
+
+img {
+  border: none;
+}
+
+html {
+  height: 100%;
+}
+
+legend {
+  font-size: 15px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.header {
+  padding: 7px;
+  position: static;
+  background: #800020;
+  color: white;
+  min-height: 85px;
+}
+
+.no-pad {
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  padding-top: 0px;
+}
+
+#padtext {
+  padding-left: 80px;
+  font-size: 20px;
+}
+
+input[type=submit] {
+  font-size: 15px;
+  padding: 5px;
+}
+
+.scale100 {
+  height: 100px;
+  width: 100px;
+}
+
+.footer {
+  padding: 5px;
+  width: 100%;
+  background-color: #f1f1f1;
+  color: white;
+}
+
+/* CREATING MULTI-COLUMN ADAPTIVE LAYOUT */
+.column {
+  padding: 20px;
+  float: left;
+  width: 50%;
+  background-color: #ffffee;
+  min-height: 750px;
+}
+
+.row::after {
+  padding: 20px;
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 800px) {
+  .column {
+    width: 100%;
+  }
+}
+
+/* END MUTI COLUMN ADAPTIVE LAYOUT */
+
+.topnav {
+  overflow: hidden;
+  position: absolute;
+  background-color: #800020;
+  z-index: 2;
+  font-size: 15px;
+  top: 15px;
+  right: 50px;
+}
+
+.topnav a {
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 15px 15px;
+  text-decoration: none;
+  border-radius: 0px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.topnav a:hover {
+  background-color: #600020;
+  color: #EEE;
+}
+
+#footer-out {
+  height: 100px;
+  background-color: #009933;
+  border-top: 1px solid #000;
+  width: 100%;
+}
+
+#footer-in {
+  margin: 0 auto;
+  padding: 20px 0px 10px 0px;
+  font-size: 10px;
+  color: #FFFFFF;
+}
